@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import Header from './Components/HeaderBar'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,9 +14,10 @@ root.render(
   // <React.StrictMode>
 
     <BrowserRouter>
-    <Routes>
+      <Header />
+      <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="home" element={<Home />}></Route>
+        {/* <Route path="home" element={<Home />}></Route> */}
         <Route path="about" element={<About />}></Route>
         <Route path="photos" element={<Photos />}></Route>
         <Route path="contact" element={<Contact />}></Route>

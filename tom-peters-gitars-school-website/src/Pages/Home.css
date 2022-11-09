@@ -1,0 +1,51 @@
+img.backgroundImage {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50%;
+    margin: 0;
+}
+
+div.homeNav {
+    color: white;
+    text-shadow: 4px 4px 12px #000;
+}
+
+h1 {
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.navButton {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 90vh;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    transition: ease-in 0.1s;
+}
+
+.navButton:hover {
+    font-size: 60px;
+    transition: ease-out 0.1s;
+}
+
+a.home {
+    left: 20%;
+}
+
+a.photos {
+    left: 40%;
+}
+
+a.about {
+    left: 60%;
+}
+
+a.contact {
+    left: 80%;
+}
