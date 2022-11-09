@@ -1,11 +1,11 @@
-import Header from "../Components/Header.js";
+import HeaderMain from "../Components/HeaderMain.js";
 export default function Home(){
   return (
     <>
       <h1>
         Tom Peters Guitar School
       </h1>
-      {/* <Header/> */}
+      <HeaderMain/>
     </>
   )
 }
