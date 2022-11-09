@@ -1,6 +1,10 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
-</style>
-header-bar {
-  background-color: AF8054; 
+#header-bar {
+  background-color: #AF8054; 
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  padding-left: 5%;
+  justify-content: center;
+  align-items: center;
 }

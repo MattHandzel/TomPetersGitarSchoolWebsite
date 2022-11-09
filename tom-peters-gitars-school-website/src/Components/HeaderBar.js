@@ -11,10 +11,10 @@ function Header() {
           onto the elements that are inside of it, the to="" attribute
         is just where to go to in the router object in index.js*/}
           TPGS
-          <Link to="home"><div>Home</div></Link>
-          <Link to="photos"><div>Photos</div></Link>
-          <Link to="about"><div>About</div></Link>
-          <Link to="contact"><div>Contact</div></Link>
+          <Link to="home"> Home</Link>
+          <Link to="photos">Photos</Link>
+          <Link to="about">About</Link>
+          <Link to="contact">Contact</Link>
         </span>
       </header>
     </div>
