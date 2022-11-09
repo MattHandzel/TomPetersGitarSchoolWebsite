@@ -12,19 +12,18 @@ import Contact from "./Pages/Contact"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-
+  // <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+    <App />
+    <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="home" element={<Home />}></Route>
         <Route path="about" element={<About />}></Route>
         <Route path="photos" element={<Photos />}></Route>
         <Route path="contact" element={<Contact />}></Route>
       </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+    </BrowserRouter> 
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

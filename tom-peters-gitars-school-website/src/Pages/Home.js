@@ -5,7 +5,7 @@ export default function Home(){
       <h1>
         Tom Peters Guitar School
       </h1>
-      <Header/>
+      {/* <Header/> */}
     </>
   )
 }
