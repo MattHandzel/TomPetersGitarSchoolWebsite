@@ -8,3 +8,10 @@ div.aboutPage {
 h1.aboutPage {
   font-size: 50;
 }
+
+img.aboutPage {
+  display:flex;
+  margin-left: auto;
+  margin-right: 10%;
+  
+}
