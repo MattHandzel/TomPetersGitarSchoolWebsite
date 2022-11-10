@@ -1,0 +1,10 @@
+div.aboutPage {
+  background-color: #5C3918;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+h1.aboutPage {
+  font-size: 50;
+}

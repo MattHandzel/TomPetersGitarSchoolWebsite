@@ -11,7 +11,7 @@ div.homeNav {
     text-shadow: 4px 4px 12px #000;
 }
 
-h1 {
+h1.homeNav {
     position: absolute;
     top: 30vh;
     left: 50%;
