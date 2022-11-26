@@ -1,0 +1,14 @@
+img.headerPhoto {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+h1.headerTitle {
+    font-size: 70px;
+}
+
+span.explain {
+    font-size: 30px;
+}

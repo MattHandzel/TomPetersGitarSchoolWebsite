@@ -13,17 +13,15 @@ function PlaceImage(props) {
         style={{
           float: props.align,
           position: "relative",
-          marginLeft: props.align == "left" ? "25%" : "0px",
+          padding: 0,
+          marginLeft: props.align == "left" ? "7vw" : "0px",
+          marginTop: '5vh',
           justifyContent: props.align,
           objectFit: "contain",
-          maxWidth: "400px",
-          maxHeight: "275px",
           width: "auto",
-          height: "auto",
-          objectFit: "contain",
+          height: "35vh",
           // borderColor: props.backgroundColor === "var(--custom-blue)" ? "" : "var(--custom-blue)",
         }}
-        width="100%"
       />
     </>
   );
@@ -34,27 +32,29 @@ export default function Tile(props) {
     <>
       <div
         className="tileContainer"
-        style={{ backgroundColor: props.backgroundColor }}
+        style={{ 
+          backgroundColor: props.backgroundColor,
+          height: "45vh" }}
       >
         {props.textAlign === "right" ? (
           <PlaceImage backgroundColor={props.backgroundColor} img={props.img} align={opposite(props.textAlign)} />
         ) : null}
         <div className="tileContent">
-          <div
+          <span
             className="tileText"
             style={{
               justifyContent: props.textAlign,
               float: props.textAlign,
               marginLeft: props.textAlign === "left" ? 0 : "10%",
               marginRight: props.textAlign === "right" ? 0 : "10%",
-              paddingRight: props.textAlign === "right" ? "25%" : 0,
-              marginTop: "2%",
-              marginBottom: "1%",
-              whiteSpace: "initial",
+              // paddingRight: props.textAlign === "right" ? "25%" : 0,
+              // marginTop: "2%",
+              // marginBottom: "1%",
+              // whiteSpace: "initial",
             }}
           >
             {props.text}
-          </div>
+          </span>
 
           {props.textAlign === "left" ? (
             <PlaceImage backgroundColor={props.backgroundColor} img={props.img} align={opposite(props.textAlign)} />
