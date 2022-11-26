@@ -20,7 +20,6 @@ function PlaceImage(props) {
           maxHeight: "275px",
           width: "auto",
           height: "auto",
-          objectFit: "contain",
           // borderColor: props.backgroundColor === "var(--custom-blue)" ? "" : "var(--custom-blue)",
         }}
         width="100%"

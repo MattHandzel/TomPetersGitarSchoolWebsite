@@ -8,6 +8,9 @@ import About from "./Pages/About"
 import Home from "./Pages/Home"
 import Photos from "./Pages/Photos"
 import Contact from "./Pages/Contact"
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+import "https://kit.fontawesome.com/b3145b888c.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +28,7 @@ root.render(
     </BrowserRouter> 
   // </React.StrictMode>
 );
-
+// library.add(fab)
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
