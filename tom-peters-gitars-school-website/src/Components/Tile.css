@@ -1,0 +1,19 @@
+.tileContainer {
+  height: 33vh;
+}
+
+.tileContent {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  height:100%;
+}
+
+.tileText {
+
+}
+
+.tileImage{
+  border: solid pink 4px;
+}
