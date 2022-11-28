@@ -14,16 +14,13 @@ function PlaceImage(props) {
           float: props.align,
           position: "relative",
           padding: 0,
-          marginLeft: props.align == "left" ? "7vw" : "0px",
+          marginLeft: props.align == "left" ? "5vw" : "0px",
+          marginRight: props.align == "right" ? "5vw" : "0px",
           marginTop: '5vh',
           justifyContent: props.align,
           objectFit: "contain",
           width: "auto",
-<<<<<<< HEAD
           height: "35vh",
-=======
-          height: "auto",
->>>>>>> f7c248ac4ea9d743a6b2bf8751ac33fc907a3bcc
           // borderColor: props.backgroundColor === "var(--custom-blue)" ? "" : "var(--custom-blue)",
         }}
       />
@@ -43,18 +40,15 @@ export default function Tile(props) {
         {props.textAlign === "right" ? (
           <PlaceImage backgroundColor={props.backgroundColor} img={props.img} align={opposite(props.textAlign)} />
         ) : null}
-        <div className="tileContent">
           <span
             className="tileText"
             style={{
-              justifyContent: props.textAlign,
-              float: props.textAlign,
-              marginLeft: props.textAlign === "left" ? 0 : "10%",
-              marginRight: props.textAlign === "right" ? 0 : "10%",
-              // paddingRight: props.textAlign === "right" ? "25%" : 0,
-              // marginTop: "2%",
-              // marginBottom: "1%",
-              // whiteSpace: "initial",
+              display: "inline-block",
+              padding: 0,
+              marginTop: "22vh",
+              marginLeft: props.textAlign === "left" ? "10%" : "10%",
+              //marginRight: props.textAlign === "right" ? 0 : "10%",
+              fontSize: "2vw"
             }}
           >
             {props.text}
@@ -63,7 +57,6 @@ export default function Tile(props) {
           {props.textAlign === "left" ? (
             <PlaceImage backgroundColor={props.backgroundColor} img={props.img} align={opposite(props.textAlign)} />
           ) : null}
-        </div>
       </div>
     </>
   );

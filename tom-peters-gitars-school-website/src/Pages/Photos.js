@@ -1,5 +1,6 @@
 import GUITARISTS_PHOTO from '../images/guitarists.jpg'
 import MAT_GUITAR from '../images/mat_happy_base.jpg'
+import PINK_GUITAR from '../images/girl_pink_guitar.jpg'
 import Tile from "../Components/Tile"
 import "./Photos.css"
 
@@ -16,6 +17,14 @@ export default function Photos(){
             "Matt playing some happy base lines."
           }
           textAlign="right"
+        />
+        <Tile
+          backgroundColor="gray"
+          img={PINK_GUITAR}
+          text={
+            "Showing off the pink guitar!"
+          }
+          textAlign="left"
         />
     </>
   )
