@@ -1,0 +1,16 @@
+div.contactPage {
+  height: 100%;
+  width: 100%;
+}
+
+img.gmap{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d0d0d0;
+}
+
+img.storefront{
+  max-width: 684px;
+  margin: auto;
+  max-height: 40vh;
+}

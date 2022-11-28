@@ -19,7 +19,11 @@ function PlaceImage(props) {
           justifyContent: props.align,
           objectFit: "contain",
           width: "auto",
+<<<<<<< HEAD
           height: "35vh",
+=======
+          height: "auto",
+>>>>>>> f7c248ac4ea9d743a6b2bf8751ac33fc907a3bcc
           // borderColor: props.backgroundColor === "var(--custom-blue)" ? "" : "var(--custom-blue)",
         }}
       />
